@@ -1,0 +1,25 @@
+{
+  "name": "AwesomeDatePicker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "awesomeDataPicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "typescript": "^4.5.5"
+  }
+}
